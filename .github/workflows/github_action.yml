@@ -2,7 +2,7 @@ name: 21f1005240@ds.study.iitm.ac.in
 run-name: 21f1005240@ds.study.iitm.ac.in
 on:
   schedule:
-    - cron: "0 10 * * 2"
+    - cron: '30 14 * * *'
 jobs:
   Explore-GitHub-Actions:
     name: 21f1005240@ds.study.iitm.ac.in
