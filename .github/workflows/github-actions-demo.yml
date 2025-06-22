@@ -1,8 +1,9 @@
 name: 21f1005240@ds.study.iitm.ac.in
-run-name: 21f1005240@ds.study.iitm.ac.in is testing out GitHub Actions
+run-name: 21f1005240@ds.study.iitm.ac.in
 on: [push]
 jobs:
   Explore-GitHub-Actions:
+    name: 21f1005240@ds.study.iitm.ac.in
     runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
