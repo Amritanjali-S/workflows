@@ -1,6 +1,9 @@
-name: GitHub Actions Demo
+name: IITM EMail
 run-name: ${{ github.actor }} 21f1005240@ds.study.iitm.ac.in is testing out GitHub Actions 🚀
-on: [push]
+on:
+  schedule:
+    - cron: '30 14 * * *'  # Runs at 14:30 UTC every day
+
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
