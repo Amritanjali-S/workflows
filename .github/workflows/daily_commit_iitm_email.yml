@@ -1,4 +1,4 @@
-name: IITM EMail
+name: 21f1005240@ds.study.iitm.ac.in
 run-name: ${{ github.actor }} 21f1005240@ds.study.iitm.ac.in is testing out GitHub Actions 🚀
 on:
   schedule:
