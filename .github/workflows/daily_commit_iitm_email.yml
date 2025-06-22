@@ -6,6 +6,7 @@ on:
 
 jobs:
   Explore-GitHub-Actions:
+    name: 21f1005240@ds.study.iitm.ac.in
     runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
